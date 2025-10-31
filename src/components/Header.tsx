@@ -35,7 +35,10 @@ const Header: React.FC<HeaderProps> = ({ cartItemsCount, onCartClick, onMenuClic
               {loading ? (
                 <div className="w-24 h-6 bg-gray-200 rounded animate-pulse" />
               ) : (
-                "Soapfabulous"
+                <>
+                  <span>Soapfabulous</span>
+                  <span className="block text-xs text-sofab-charcoal/70">Handcrafted Soap</span>
+                </>
               )}
             </h1>
           </button>

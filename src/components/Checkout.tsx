@@ -84,7 +84,7 @@ Please confirm this order to proceed. Thank you for choosing Sofab!
     `.trim();
 
     const encodedMessage = encodeURIComponent(orderDetails);
-    const messengerUrl = `https://m.me/61565426099963?text=${encodedMessage}`;
+    const messengerUrl = `https://m.me/soapfabulousph?text=${encodedMessage}`;
     
     window.open(messengerUrl, '_blank');
     
